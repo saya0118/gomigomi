@@ -1,4 +1,7 @@
-:root{
-  --header-link-color: #F5F5DC;
-  --header-bg-color: #2F84AB;
+:root {
+  --main-font-color: #f5f5dc;
+  --main-bg-color: #2f84ab;
+
+  margin: 0;
+  padding: 0;
 }

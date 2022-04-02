@@ -1,5 +1,43 @@
-.header{
-    height: 100px;
-    width: 100%;
-    background-color: var(--header-bg-color);
+.header {
+  margin: 0;
+  height: 65px;
+  width: 100%;
+  background-color: var(--main-bg-color);
+}
+
+.header-container {
+  width: 70%;
+  height: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-title {
+  font-size: 25px;
+  color: var(--main-font-color);
+  font-family: "Monoton", cursive;
+  font-family: "Playfair Display", serif;
+  letter-spacing: 2px;
+}
+
+.header-ul {
+  display: flex;
+}
+
+.header-list {
+  list-style: none;
+  text-decoration: none;
+  width: 80px;
+  text-align: end;
+}
+
+.header-list:hover {
+  cursor: pointer;
+}
+
+.header-link {
+  color: var(--main-font-color);
 }
