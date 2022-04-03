@@ -1,6 +1,6 @@
 .header {
   margin: 0;
-  height: 65px;
+  height: 60px;
   width: 100%;
   background-color: var(--main-bg-color);
   position: fixed;
@@ -20,7 +20,7 @@
 
 .header-title {
   font-size: 25px;
-  color: var(--main-font-color);
+  color: var(--third-bg-color);
   font-family: "Monoton", cursive;
   font-family: "Playfair Display", serif;
   letter-spacing: 2px;
@@ -42,5 +42,5 @@
 }
 
 .header-link {
-  color: var(--main-font-color);
+  color: var(--third-bg-color);
 }

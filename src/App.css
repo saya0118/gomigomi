@@ -1,6 +1,7 @@
 :root {
-  --main-font-color: #f5f5dc;
-  --main-bg-color: #2f84ab;
+  --main-bg-color: #eeeee4;
+  --second-bg-color: #2f84ab;
+  --third-bg-color:#11303fde;
 
   margin: 0;
   padding: 0;
