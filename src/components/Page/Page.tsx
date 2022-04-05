@@ -1,11 +1,11 @@
-import React from 'react';
-import styles from './Page.module.css';
-import { SearchBar } from '../SearchBar';
+import React from "react";
+import styles from "./Page.module.css";
+import { SearchBox } from "../SearchBox";
 
 export const Page = () => {
-    return (
-        <div className={styles['page']}>
-            <SearchBar/>
-        </div>
-    )
-}
+  return (
+    <div className={styles["page"]}>
+      <SearchBox />
+    </div>
+  );
+};
