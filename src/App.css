@@ -1,8 +1,11 @@
 :root {
-  --main-bg-color: #eeeee4;
-  --second-bg-color: #2f84ab;
-  --third-bg-color:#11303fde;
+  --color-white: #eeeee4;
+  --color-blue: #50929d;
+  --color-indigo:#11303fde;
+  --color-brown: #644434;
 
   margin: 0;
   padding: 0;
+  height: 100vh;
+  background-color: var(--second-bg-color);
 }
