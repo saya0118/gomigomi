@@ -5,7 +5,9 @@ import { SearchBar } from "../SearchBar";
 export const SearchBox = () => {
   return (
     <div className={styles["search-box"]}>
-      <SearchBar />
+      <div className={styles["search-container"]}>
+        <SearchBar />
+      </div>
     </div>
   );
 };
